@@ -1,0 +1,19 @@
+0.  Jpeg-24 bit;bmp-1,4,8,16,24,32 bit;gif-8bit;png-24 bit
+1.  GIF supports animation
+2.  In loss-less,image obtained by decompressing image is identical to initial image which was compressed,but in lossy final and iniitial image are not identical.
+3.  jpg
+4.  First,it change first characters of directory entry to signal that it has been deleted,second it moves file to free cluster of memory where it remains untouched.
+5.  Either by setting each byte to NUL i.e. overwriting is good,however i would prefer using disk sanitization and encryption techniques.
+6.  stdint.h is a header file which is set of int type alias having specific width
+7.  To store value depending on usage and size of value expected.
+8.  Byte:1 byte;Dword:4 byte;long:3 byte;Word:2 byte
+9.  42 4D in heaxadecimal
+10. bfsize is number of bytes required to store bmp file and bisize is bytes required to store sturcture
+11. Negative biHeight has origin of upper left corner
+12. biBitCount
+13. In case there is not enough memory in heap,so memory isn't allocated.
+14. fread here reads structure in bmp,so 1 means here is that we need to read 1 sturucture i.e. bmpinfo or bmpfilehe. 
+15. 3
+16. fseek helps to take file pointer around the file
+17. Seek_Cur sets pointer to current position,means move to position from current position.
+18. David J Malan
